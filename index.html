@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Signup Form</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/theme.css" />
+  </head>
+  <body>
+    <div class="all-content">
+      <section class="image-container">
+        <div class="image">
+          <div class="logo-container">
+            <h1 class="logo-text">Baldur</h1>
+          </div>
+        </div>
+      </section>
+
+      <section class="main">
+        <div class="main-content">
+          <div class="description-container">
+            <p class="service-description">
+              This is not a real online service! You know you need something
+              like this in your life to help you realize your deepest dreams.
+              Sign up now to get started.
+            </p>
+            <p class="service-description">You know you want to.</p>
+          </div>
+          <div class="form-container">
+            <h2>Create an account</h2>
+            <form action="" method="post">
+              <div class="all-form-fields">
+                <!-- FIRST NAME -->
+                <div class="input-container">
+                  <div class="full-input">
+                    <div class="form-field">
+                      <label for="firstName">First Name</label>
+                      <input
+                        type="text"
+                        id="firstName"
+                        name="firstName"
+                        placeholder="Walter"
+                      />
+                    </div>
+                  </div>
+                  <p class="supporting-text">supporting text</p>
+                </div>
+                <!-- LAST NAME -->
+                <div class="input-container">
+                  <div class="full-input">
+                    <div class="form-field">
+                      <label for="lastName">Last Name</label>
+                      <input
+                        type="text"
+                        id="lastName"
+                        name="lastName"
+                        placeholder="White"
+                      />
+                    </div>
+                  </div>
+                  <p class="supporting-text">supporting text</p>
+                </div>
+                <!-- EMAIL -->
+                <div class="input-container">
+                  <div class="full-input">
+                    <div class="form-field">
+                      <label for="userEmail">Email</label>
+                      <input
+                        type="email"
+                        id="userEmail"
+                        name="userEmail"
+                        placeholder="test@example.com"
+                      />
+                    </div>
+                  </div>
+                  <p class="supporting-text">supporting text</p>
+                </div>
+                <!-- PHONE NUMBER -->
+                <div class="input-container">
+                  <div class="full-input">
+                    <div class="form-field">
+                      <label for="userPhone">Phone Number</label>
+                      <input
+                        type="tel"
+                        id="userPhone"
+                        name="userPhone"
+                        placeholder="(123) 456-7890"
+                      />
+                    </div>
+                  </div>
+                  <p class="supporting-text">supporting text</p>
+                </div>
+                <!-- PASSWORD -->
+                <div class="input-container">
+                  <div class="full-input">
+                    <div class="form-field">
+                      <label for="userPass">Password</label>
+                      <input
+                        type="password"
+                        id="userPass"
+                        name="userPass"
+                        minlength="8"
+                        maxlength="16"
+                        placeholder=""
+                        required
+                      />
+                    </div>
+                  </div>
+                  <p class="supporting-text">8 characters minimum</p>
+                </div>
+                <!-- CONFIRM PASSWORD -->
+                <div class="input-container">
+                  <div class="full-input">
+                    <div class="form-field">
+                      <label for="userPass">Confirm Password</label>
+                      <input
+                        type="password"
+                        id="userPassConfirm"
+                        name="userPassConfirm"
+                        minlength="8"
+                        maxlength="16"
+                        placeholder=""
+                        required
+                      />
+                    </div>
+                  </div>
+                  <p class="supporting-text">passwords must match</p>
+                </div>
+              </div>
+              <button type="submit" class="form-submit-btn">
+                Create account
+              </button>
+            </form>
+            <p>Already have an account? <a href="">Log in</a></p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
