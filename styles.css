@@ -172,4 +172,22 @@ button.form-submit-btn {
   font-weight: 500;
   line-height: 20px; /* 142.857% */
   letter-spacing: 0.1px;
+
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button.form-submit-btn:hover {
+  box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.3);
+}
+
+button.form-submit-btn:focus {
+  background-color: #2674af;
+  box-shadow: none;
+}
+
+button.form-submit-btn:active {
+  background-color: #2674af;
+  box-shadow: none;
 }
